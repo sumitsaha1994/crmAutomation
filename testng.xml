@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Free crm automation">
+	<test name="free crm" >
+    	<classes>
+    		<class name="com.freecrm.TestCase.TestClass1">
+    			<methods>
+    				<include name="verify_login" />
+    				<include name="export_contact" />
+    				<include name="download_exported_contact" />
+    			</methods>
+    		</class>
+    	</classes>
+	</test>
+</suite>

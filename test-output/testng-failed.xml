@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Free crm automation]">
+  <test name="free crm(failed)">
+    <classes>
+      <class name="com.freecrm.TestCase.TestClass1">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="verify_login"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.freecrm.TestCase.TestClass1 -->
+    </classes>
+  </test> <!-- free crm(failed) -->
+</suite> <!-- Failed suite [Free crm automation] -->
